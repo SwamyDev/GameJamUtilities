@@ -1,0 +1,564 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c310a07462197f44abe142abe52d9df, type: 3}
+  m_Name: StringKeyExampleSettings
+  m_EditorClassIdentifier: 
+  settings:
+  - key: gustav
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav1
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav2
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav3
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav4
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav5
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav6
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: jkg
+    just: 0
+  - key: gustav7
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav8
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav9
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav11
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav12
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav13
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav14
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav15
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav16
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav17
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav18
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav19
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav20
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav21
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav22
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav23
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav24
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav25
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav26
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav27
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav28
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav29
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav30
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav31
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav32
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav33
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav34
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav35
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav36
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav37
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav38
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav39
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav40
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav41
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav42
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav43
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav44
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav45
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav46
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav47
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav48
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav49
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0
+  - key: gustav50
+    buns: 0
+    huns: 
+    hans: 0
+    guns:
+      lului: 140
+      fasd: 
+    klu: 0
+    warrior: 
+    hufer: 
+    just: 0

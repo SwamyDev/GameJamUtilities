@@ -173,24 +173,38 @@ public class DynamicSplitScreenController : MonoBehaviour
 		lineRenderer = separationLine.AddComponent<LineRenderer>() as LineRenderer;
 		
 		Camera camera = cameraOne.GetComponent<Camera>();
-		
+
+		camera.clearFlags = CameraClearFlags.Depth;
+
 		lineRenderer.SetVertexCount(2);
 
 		lineRenderer.material = new Material(lineMaterial);//(Shader.Find("Particles/Additive")
 		lineRenderer.useWorldSpace = false;
 		lineRenderer.SetPosition(0, new Vector3(0, -0.8f, camera.nearClipPlane + 0.1f));
 		lineRenderer.SetPosition(1, new Vector3(0,  0.8f, camera.nearClipPlane + 0.1f));
-		
+		lineRenderer.receiveShadows = false;
+		lineRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+
 		clippingPlane = GameObject.CreatePrimitive(PrimitiveType.Plane);
 		clippingPlane.name = "ClippingPlane";
 		clippingPlane.transform.parent = cameraOne.transform;
 		
 		clippingPlane.layer = clippingLayer;
 		clippingPlane.transform.localPosition = new Vector3(0, 0, camera.nearClipPlane + 0.1f);
-		
+
 		Material myNewMaterial = Resources.Load("ClippingMaterial", typeof(Material)) as Material;;
 		myNewMaterial.renderQueue = 1;
-		clippingPlane.GetComponent<Renderer>().material = myNewMaterial;
+		Renderer clippingPlaneRenderer = clippingPlane.GetComponent<Renderer>();
+		clippingPlaneRenderer.material = myNewMaterial;
+		clippingPlaneRenderer.shadowCastingMode = UnityEngine.Rendering.ShadowCastingMode.Off;
+		clippingPlaneRenderer.receiveShadows = false;
+
+		Camera camera2 = cameraTwo.GetComponent<Camera>();
+
+		if (camera.depth <= camera2.depth)
+		{
+			camera.depth = camera2.depth + 1;
+		}
 	}
 
 	// Update is called once per frame
