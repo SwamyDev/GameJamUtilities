@@ -6,7 +6,7 @@ namespace JamUtilities
 {
 
 [Serializable]
-public class StringKeyAttribute<T> where T : class, IStringKeyElement  
+public class StringKeyAttribute<T> : IEquatable<StringKeyAttribute<T>> where T : class, IStringKeyElement
 {
 	[SerializeField]
 	private string key;
