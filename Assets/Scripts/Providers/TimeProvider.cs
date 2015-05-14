@@ -7,7 +7,7 @@ public static class TimeProvider
 {
 	public static float CurrentLevelTime()
 	{
-		float startTime = SettingsManager.GetInstance().levelSettings.GetStartingTime();
+		float startTime = SettingsManager.Instance.levelSettings.GetStartingTime();
 		return startTime + Time.timeSinceLevelLoad;
 	}
 
@@ -28,7 +28,7 @@ public static class TimeProvider
 
 	public static IEnumerator WaitForLevelTime(float time)
 	{
-		float t = SettingsManager.GetInstance().levelSettings.GetStartingTime();
+		float t = SettingsManager.Instance.levelSettings.GetStartingTime();
 		while (t > time)
 		{
 			yield return new WaitForEndOfFrame();
