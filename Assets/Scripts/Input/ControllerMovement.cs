@@ -5,8 +5,7 @@ namespace JamUtilities {
 
 public class ControllerMovement : MonoBehaviour 
 {
-	[SerializeField]
-	private PlayerIdAttribute playerId;
+	public PlayerIdAttribute playerId;
 	[SerializeField]
 	private Vector3 horizontalDirection = Vector3.right;
 	[SerializeField]
