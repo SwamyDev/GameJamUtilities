@@ -8,14 +8,12 @@ public class PlatformerMotor : MonoBehaviour, IMoveable
     [SerializeField]
     private float speed;
     [SerializeField]
-    private float jumpHeight;
-    [SerializeField]
     private float jumpSpeed;
 
     private Rigidbody2D body;
     private float inputMagnitude;
     private bool isRequestingJump;
-    private bool isLanded;
+    private bool canJump;
 
     void Awake()
     {
@@ -25,9 +23,9 @@ public class PlatformerMotor : MonoBehaviour, IMoveable
     void Update()
     {
         Vector2 velocity = Vector2.zero;
-        if (isRequestingJump && isLanded)
+        if (isRequestingJump && canJump)
         {
-            isLanded = false;
+            canJump = false;
             velocity.y = jumpSpeed;
         }
 
@@ -37,7 +35,7 @@ public class PlatformerMotor : MonoBehaviour, IMoveable
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        isLanded = true;
+        canJump = true;
     }
 
     public void Move(Vector3 input)
