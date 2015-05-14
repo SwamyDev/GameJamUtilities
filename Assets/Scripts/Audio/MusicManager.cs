@@ -3,7 +3,7 @@ using UnityEngine.Audio;
 using System.Collections;
 using System.Collections.Generic;
 
-namespace CyberG {
+namespace JamUtilities {
 
 public class MusicManager : MonoBehaviour
 {
@@ -95,4 +95,4 @@ public class MusicManager : MonoBehaviour
 	}
 }
 
-}	// namespace CyberG
+}	// namespace JamUtilities

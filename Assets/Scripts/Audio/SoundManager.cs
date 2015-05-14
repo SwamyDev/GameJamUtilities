@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+namespace JamUtilities {
+
 public class SoundManager : MonoBehaviour 
 {
 	[SerializeField]
@@ -93,3 +95,5 @@ public class SoundManager : MonoBehaviour
 		source.loop = false;
 	}
 }
+
+}	// namespace JamUtilities

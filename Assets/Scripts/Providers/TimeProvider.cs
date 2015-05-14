@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+namespace JamUtilities {
+
 public static class TimeProvider 
 {
 	public static float CurrentLevelTime()
@@ -39,3 +41,5 @@ public static class TimeProvider
 		}
 	}
 }
+
+} // namespace JamUtilities

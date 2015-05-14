@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+namespace JamUtilities {
+
 public class SettingsManager : MonoBehaviour
 {
 	public LevelSettings levelSettings;
@@ -19,3 +21,5 @@ public class SettingsManager : MonoBehaviour
 		instance = this;
 	}
 }
+
+}	// namespace JamUtilities

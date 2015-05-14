@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+namespace JamUtilities {
+
 public class LevelSettings : ScriptableObject 
 {
 	public enum AspectRatio
@@ -29,3 +31,5 @@ public class LevelSettings : ScriptableObject
 		}
 	}
 }
+
+}	// namespace JamUtilities
