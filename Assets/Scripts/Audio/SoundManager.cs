@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace JamUtilities {
 
-public class SoundManager : MonoBehaviour 
+public class SoundManager : MonoSingleton<SoundManager> 
 {
 	[SerializeField]
 	private AudioClip playerShot;
@@ -15,18 +15,6 @@ public class SoundManager : MonoBehaviour
 	private AudioClip instanced;
 
 	private AudioSource[] sources;
-
-    private static SoundManager instance;
-
-    public static SoundManager Instance()
-    {
-        if (instance == null)
-        {
-            instance = FindObjectOfType<SoundManager>();
-        }
-
-        return instance;
-    }
 
     void Awake()
     {
